@@ -1,4 +1,3 @@
-// Assignment Code
 var uniChr = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_",
 "-", "=", "+", "`", "~", "[", "]", "{", "}", ";", ":", "'", '"', "|", "<",
 ">", ",", ".", "?", "/", "//", ""];
@@ -15,6 +14,7 @@ var generateBtn = document.querySelector("#generate");
 
 
 function passwordOptions() {
+  //Ask for users desired password length
   var leng = parseFloat(prompt("How long do you want your desired password to be?"), 10);
   
   //Checks to see if provided length is correct data type
