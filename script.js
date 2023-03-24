@@ -1,4 +1,5 @@
 // Character set for potential password options
+
 var uniChr = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_",
 "-", "=", "+", "`", "~", "[", "]", "{", "}", ";", ":", "'", '"', "|", "<",
 ">", ",", ".", "?", "/", "//", ""];
@@ -13,6 +14,7 @@ var numChr = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",];
 
 
 function passwordOptions() {
+  //Ask for users desired password length
   var leng = parseFloat(prompt("How long do you want your desired password to be?"), 10);
   
   //Checks to see if provided length is correct data type
